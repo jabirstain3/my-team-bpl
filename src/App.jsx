@@ -1,5 +1,7 @@
+import DisplayPlayer from './components/dispalyplayear/DisplayPlayer'
 import HeroBanner from './components/herobanner/HeroBanner'
 import Navbar from './components/navbar/Navbar'
+import PlayerShowcase from './components/playerShowcare/PlayerShowcase'
 
 function App() {
 
@@ -7,6 +9,7 @@ function App() {
     <section className='relative w-full'>
         <Navbar />  
         <HeroBanner/>
+        <DisplayPlayer/>
       {/* <div className="bg-red-100 h-screen"></div> */}
     </section>
   )

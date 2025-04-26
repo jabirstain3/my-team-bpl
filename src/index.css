@@ -1,6 +1,13 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+
+.sectionBase {
+  width: full;
+  height: full;
+  padding: 6px;
+  margin: auto;
+}
 .text-sec {
   color: #131313b3;
 }
@@ -8,6 +15,23 @@
   color: #131313;
 }
 
+@media screen and ( min-width: 768px) and ( max-width: 1023px ) {
+  .sectionBase {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px
+  }
+  
+}
+
+@media screen and (min-width: 1024px ) {
+  .sectionBase {
+    max-width: 1200px;
+    margin: auto;
+    padding: 16px
+  }
+  
+}
 
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
