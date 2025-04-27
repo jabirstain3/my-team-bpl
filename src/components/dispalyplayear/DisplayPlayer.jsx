@@ -4,8 +4,9 @@ import PlayerSelected from '../Playerselected/PlayerSelected';
 
 const DisplayPlayer = () => {
     const [select, setSelect] = useState(false);
-    const [selectedPlayers, setSelectedPlayers] = useState([]);
+    const [selectedPlayers, setSelectedPlayers] = useState([])
     // console.log(selectedPlayers);
+    
     const [players, setPlayers] = useState([]);
 
     useEffect(() => {
@@ -38,6 +39,11 @@ const DisplayPlayer = () => {
         }
     }
     
+    const handleDeletePlayer = ( id ) => {
+        const updatedPlayers = selectedPlayers.filter(player => player.playear_id !== id);
+        setSelectedPlayers(updatedPlayers);
+    }
+    
     return (
         <div className='sectionBase '>
             <div className="flex flex-wrap-reverse justify-center sm:justify-between items-center gap-10">
@@ -55,7 +61,7 @@ const DisplayPlayer = () => {
             
             <div className="">
                 { select ?
-                    <PlayerSelected selectedPlayers={selectedPlayers} />:
+                    <PlayerSelected selectedPlayers={selectedPlayers} handleDeletePlayer={handleDeletePlayer}/>:
                     <PlayerShowcase players={players} handlePlayerSelect={handlePlayerSelect}/>
                 }
             </div>

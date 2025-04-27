@@ -15,7 +15,7 @@ const HeroBanner = () => {
                         <p className="mb-5 text-black">Beyond Boundaries Beyond Limits</p>
 
                         <button className="btn btn-accent text-white">Claim Free Credit</button>
-                        </div>
+                    </div>
                 </div>
             </div>
         </div>
