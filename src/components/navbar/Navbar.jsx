@@ -1,14 +1,12 @@
 import logo from '../../assets/logo-footer.png';
 
-const Navbar = () => {
+const Navbar = ({ coin }) => {
     const navlinks = <>
         <li className='text-sec'><a href='/'>Home</a></li>
         <li className='text-sec'><a href=''>Fixture</a></li>
         <li className='text-sec'><a href=''>Teams</a></li>
         <li className='text-sec'><a href=''>Schedules</a></li>
     </>
-
-    const points = 0
 
     return (
         <div className="navbar sticky top-0 sectionBase md:p-4 bg-white rounded-b-lg shadow-sm z-10">
@@ -41,7 +39,7 @@ const Navbar = () => {
                 </div>
                 
                 <div className="border py-2 mx-4 px-6 border-[#13131310] rounded-lg bg-[#13131310] flex items-center gap-2">
-                    <span>$ {points}</span>
+                    <span>$ {coin}</span>
                 </div>
             </div>
         </div>

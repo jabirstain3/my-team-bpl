@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import PlayerShowcase from '../playerShowcare/PlayerShowcase';
 import PlayerSelected from '../Playerselected/PlayerSelected';
 
-const DisplayPlayer = () => {
+const DisplayPlayer = ({ handleDebit }) => {
     const [select, setSelect] = useState(false);
     const [selectedPlayers, setSelectedPlayers] = useState([])
     // console.log(selectedPlayers);
@@ -32,6 +32,8 @@ const DisplayPlayer = () => {
                 alert('Player already selected!');
                 return;
             }
+
+            handleDebit(player.price);
             setSelectedPlayers([...selectedPlayers, player]);
             
         } else {
@@ -62,7 +64,7 @@ const DisplayPlayer = () => {
             <div className="">
                 { select ?
                     <PlayerSelected selectedPlayers={selectedPlayers} handleDeletePlayer={handleDeletePlayer}/>:
-                    <PlayerShowcase players={players} handlePlayerSelect={handlePlayerSelect}/>
+                    <PlayerShowcase players={players} handlePlayerSelect={handlePlayerSelect} />
                 }
             </div>
         </div>
