@@ -3,6 +3,7 @@ import DisplayPlayer from './components/dispalyplayear/DisplayPlayer'
 import HeroBanner from './components/herobanner/HeroBanner'
 import Navbar from './components/navbar/Navbar'
 import NewsLetter from './components/newsletter/NewsLetter'
+import FooterContent from './components/footercontent/FooterContent'
 
 function App() {
   const [coin, setCoin] = useState(0)
@@ -28,7 +29,7 @@ function App() {
         <div className="relative max-w-[1180px] h-28 mx-4 md:mx-10 xl:mx-auto mt-12">
           <NewsLetter/>
         </div>
-
+        <FooterContent/>
     </section>
   )
 }
