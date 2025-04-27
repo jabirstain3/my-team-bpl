@@ -11,7 +11,7 @@ const Navbar = () => {
     const points = 0
 
     return (
-        <div className="navbar sticky top-0 sectionBase md:p-4 bg-white rounded-b-lg shadow-sm">
+        <div className="navbar sticky top-0 sectionBase md:p-4 bg-white rounded-b-lg shadow-sm z-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">

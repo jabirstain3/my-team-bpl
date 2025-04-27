@@ -1,7 +1,6 @@
 import DisplayPlayer from './components/dispalyplayear/DisplayPlayer'
 import HeroBanner from './components/herobanner/HeroBanner'
 import Navbar from './components/navbar/Navbar'
-import PlayerShowcase from './components/playerShowcare/PlayerShowcase'
 
 function App() {
 

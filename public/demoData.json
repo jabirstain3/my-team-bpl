@@ -1,0 +1,133 @@
+[
+    {
+        "playear_id": "10001",
+        "name": "Shakib Al Hasan",
+        "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.ogcYJsdP4IhHG743JC1wuwHaD4%3Fpid%3DApi&f=1&ipt=6e4350c8965c71995eb953b62b59bc68434292c25a8c712eb3631c76267739d7&ipo=images",
+        "profile": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.9kuS4jcn-GrHA-j5VcJRmgHaHe%3Fpid%3DApi&f=1&ipt=8464c597e51f7d1e9387ee6107e25591dcbfcafad3a2503fc32a59694cf66048&ipo=images",
+        "country": "Bangladesh",
+        "rol": "all-rounder",
+        "skills": ["left-hand-batsman", "left-arm-orthodox-spinner"],
+        "rating": 4.7,
+        "price": 116000
+    },
+    {
+        "playear_id": "10002",
+        "name": "Steve Smith",
+        "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapers.com%2Fimages%2Fhd%2Faustralia-cricket-batsman-superstar-steve-smith-u7cfqgfdaj5c9t05.jpg&f=1&nofb=1&ipt=2c0cbad4182e23a0b1a5210cd1b67f143ac491c0f11665cb04935aeb7e5f3aa3",
+        "profile": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fstarsunfolded.com%2Fwp-content%2Fuploads%2F2015%2F02%2FSteve-Smith.jpg&f=1&nofb=1&ipt=41330036a482d528937f34dab40936ff8c432884042813ddb330962c6ac62212",
+        "country": "Australia",
+        "rol": "batsman",
+        "skills": ["right-hand-batsman", "occasional-leg-spinner"],
+        "rating": 4.6,
+        "price": 115000
+    },
+    {
+        "playear_id": "10003",
+        "name": "Babar Azam",
+        "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.samaa.tv%2Fimages%2Fbabar-azam-file-1.jpg&f=1&nofb=1&ipt=21bbf23947a4a1823cf635e269eda530acd45601127a2a52f7fc64826c7611b6",
+        "profile": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg1.hscicdn.com%2Fimage%2Fupload%2Ff_auto%2Ct_ds_square_w_640%2Cq_50%2Flsci%2Fdb%2FPICTURES%2FCMS%2F320400%2F320448.png&f=1&nofb=1&ipt=8ba4229cbceeb07f646e4c560e9a4250ac2c6c39f1bf6e53647406fed6f0d9b3",
+        "country": "Pakistan",
+        "rol": "batsman",
+        "skills": ["right-hand-batsman"],
+        "rating": 4.7,
+        "price": 118000
+    },
+    {
+        "playear_id": "10004",
+        "name": "Kane Williamson",
+        "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp3051855.jpg&f=1&nofb=1&ipt=3777f118aa73048c10e0f76330008ca22e0540a4daf76ff77e316fe5555c5611",
+        "profile": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.8Cu6G3Qj65ReaP56wAk-wAHaE8%26pid%3DApi&f=1&ipt=f2257716e2ecc252bd85f4750ce9005124645c3575d4f41ca375b136d97cddb4&ipo=images",
+        "country": "New Zealand",
+        "rol": "batsman",
+        "skills": ["right-hand-batsman", "off-spin-bowler"],
+        "rating": 4.7,
+        "price": 117000
+    },
+    {
+        "playear_id": "10005",
+        "name": "Ben Stokes",
+        "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.indianexpress.com%2F2021%2F03%2Fben-stokes-england.jpg&f=1&nofb=1&ipt=468dd75229693954393fb62722e74298e653ca5b9217c888ec172fe7639078d3",
+        "profile": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.LH2Y1-zYbkXr_xrx9oABNQHaFj%26pid%3DApi&f=1&ipt=40b8ca767d8188a2c4243c317f3cdf19b2b75b1de41e5b7dd4884a8c61d5eb11&ipo=images",
+        "country": "England",
+        "rol": "all-rounder",
+        "skills": ["left-hand-batsman", "right-arm-fast-medium"],
+        "rating": 4.6,
+        "price": 125000
+    },
+    {
+        "playear_id": "10006",
+        "name": "Jasprit Bumrah",
+        "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.uSRG25Yr91y7mpa525845gHaEK%26pid%3DApi&f=1&ipt=0773d74c478c4ac7a4a51e10e1bae36fd532e2900f3e5924d7486cc6faca7733&ipo=images",
+        "profile": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.90GK3kBJC_GPc9v_hN2diQHaHa%26pid%3DApi&f=1&ipt=cfc10f129117486ae8518a21c0ec2c42b446513dd57311da6fbad577310c0ee7&ipo=images",
+        "country": "India",
+        "rol": "bowler",
+        "skills": ["right-arm-fast-bowler"],
+        "rating": 4.7,
+        "price": 119000
+    },
+    {
+        "playear_id": "10007",
+        "name": "Rashid Khan",
+        "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.smfW3MqS1tu7Rrp5DmYJLgHaEB%26pid%3DApi&f=1&ipt=79ce388892b1f5c28d85c9f448859424f5f524109d47db414d1351f47465513b&ipo=images",
+        "profile": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.LJmo7HP8pE98_xoyQZ38lwAAAA%3Fpid%3DApi&f=1&ipt=e21cb62728f467c415351e20afe864211da716143b9c20ea83bcb2848c8e0032&ipo=images",
+        "country": "Afghanistan",
+        "rol": "bowler",
+        "skills": ["right-arm-leg-spinner"],
+        "rating": 4.8,
+        "price": 110000
+    },
+    {
+        "playear_id": "10008",
+        "name": "Quinton de Kock",
+        "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.4rxLoQp8KB16heGcqsKyiQHaEK%26pid%3DApi&f=1&ipt=7625ed941289866226ff58e48e4eaaa6122c6d7fe6f42445e3f90253b12e42c1&ipo=images",
+        "profile": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.LURT8D3mrYX11vhwMyBFlAHaHa%26pid%3DApi&f=1&ipt=1841c9b6125a6e59cee64e2b8567e24b030c7277ee056cc898ed7819ce78bafa&ipo=imagesttps://static.toiimg.com/thumb/msid-77548636,width-400,resizemode-4/77548636.jpg",
+        "country": "South Africa",
+        "rol": "wicketkeeper-batsman",
+        "skills": ["left-hand-batsman", "wicketkeeper"],
+        "rating": 4.5,
+        "price": 108000
+    },
+    {
+        "playear_id": "10009",
+        "name": "Joe Root",
+        "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.NNlPDZt21u7KA9e4UyyxKgHaEK%3Fpid%3DApi&f=1&ipt=6e80627d919aca5d5702238100b4e7ea03d708f8a8a42cd63a9f9cdf66e9a5a6&ipo=images",
+        "profile": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%2Fid%2FOIP.5CxkEGcYqyW8smGM9-8ttwAAAA%3Fpid%3DApi&f=1&ipt=f4992f94bf2765cbd9c186b9714efa213470b226966aef1722a77a1b8d65a038&ipo=images",
+        "country": "England",
+        "rol": "batsman",
+        "skills": ["right-hand-batsman", "occasional-off-spinner"],
+        "rating": 4.6,
+        "price": 113000
+    },
+    {
+        "playear_id": "10010",
+        "name": "Shaheen Afridi",
+        "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.8bgnCqDifRonxXtZ2vZwGwHaEK%26pid%3DApi&f=1&ipt=c8df7f2d4359f4b258904f0b0d8175c6f7492a956fc3b67baca53499c15b1a7b&ipo=images",
+        "profile": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.MkW3gRW4r_AfmzOf-T319gAAAA%26pid%3DApi&f=1&ipt=f6ed4a035cf36bd017765ea34df31e2d95148a3201e2389785d49b369c4d75ff&ipo=images",
+        "rol": "bowler",
+        "skills": ["left-arm-fast-bowler"],
+        "rating": 4.7,
+        "price": 109000
+    },
+    {
+        "playear_id": "10011",
+        "name": "David Warner",
+        "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.dHbaj35i_AOB3qCiI72BFAHaEK%26cb%3Diwp1%26pid%3DApi&f=1&ipt=237ba7983c147addbe909778e817be2b1e3d3cfb79b4f94f9cebba9a5c1cc900&ipo=images",
+        "profile": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.dVYIqcKGsTY4wSMtu0XChwHaFj%26cb%3Diwp1%26pid%3DApi&f=1&ipt=e9756d5a2056296717fff228a16bd00ff9c7f1c99927f0e251e9beccfac71a91&ipo=images",
+        "country": "Australia",
+        "rol": "batsman",
+        "skills": ["left-hand-batsman"],
+        "rating": 4.5,
+        "price": 114000
+    },
+    {
+        "playear_id": "10012",
+        "name": "Virat Kohli",
+        "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.assettype.com%2Ffreepressjournal%2F2019-08%2F73f24ccc-2af8-477e-885e-80c90e7b7bd0%2FVirat_Kohli_century.jpg%3Frect%3D0%252C0%252C3228%252C1816&f=1&nofb=1&ipt=88d5004b7810dc756fedf5e2e35e243998d5b2acde1e5787968f093228e13d70",
+        "profile": "https://assets.telegraphindia.com/telegraph/2022/Nov/1667643804_virat-kohli.jpg",
+        "country": "India",
+        "rol": "batsman",
+        "skills": ["right-hand-batsman"],
+        "rating": 4.8,
+        "price": 120000
+    }
+]

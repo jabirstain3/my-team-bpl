@@ -5,10 +5,11 @@ import PlayerSelected from '../Playerselected/PlayerSelected';
 const DisplayPlayer = () => {
     const [select, setSelect] = useState(false);
     const [selectedPlayers, setSelectedPlayers] = useState([]);
+    // console.log(selectedPlayers);
     const [players, setPlayers] = useState([]);
 
     useEffect(() => {
-        fetch('https://api.example.com/players')
+        fetch('demoData.json')
             .then((res) => res.json())
             .then((data) => {
                 setPlayers(data);       
@@ -24,7 +25,14 @@ const DisplayPlayer = () => {
 
     const handlePlayerSelect = (player) => {
         if (selectedPlayers.length < 6) {
+            const isSelected = selectedPlayers.some(selectedPlayer => selectedPlayer.playear_id === player.playear_id);
+
+            if (isSelected) {
+                alert('Player already selected!');
+                return;
+            }
             setSelectedPlayers([...selectedPlayers, player]);
+            
         } else {
             alert('You can only select 6 players!');
         }
