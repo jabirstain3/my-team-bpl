@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import PlayerShowcase from '../playerShowcare/PlayerShowcase';
 import PlayerSelected from '../Playerselected/PlayerSelected';
 
-const DisplayPlayer = ({ handleDebit }) => {
+const DisplayPlayer = ({ handleDebit, showToast }) => {
     const [select, setSelect] = useState(false);
     const [selectedPlayers, setSelectedPlayers] = useState([])
     // console.log(selectedPlayers);
@@ -29,21 +29,28 @@ const DisplayPlayer = ({ handleDebit }) => {
             const isSelected = selectedPlayers.some(selectedPlayer => selectedPlayer.playear_id === player.playear_id);
 
             if (isSelected) {
-                alert('Player already selected!');
+                showToast( 'error', 'Player already selected!');
                 return;
             }
 
-            handleDebit(player.price);
-            setSelectedPlayers([...selectedPlayers, player]);
-            
+            const transfar = handleDebit(player.price);
+            if (transfar) {
+                setSelectedPlayers([...selectedPlayers, player]);
+                showToast( 'success', `${player.name} selected successfully!`);
+            } 
         } else {
-            alert('You can only select 6 players!');
+            showToast( 'error', 'You can only select 6 players!');
         }
     }
     
-    const handleDeletePlayer = ( id ) => {
+    const handleDeletePlayer = ( id, name ) => {
         const updatedPlayers = selectedPlayers.filter(player => player.playear_id !== id);
         setSelectedPlayers(updatedPlayers);
+        showToast('success', `${name} removed from team.`);
+    }
+
+    const HandelWayToSelectMore = () => {
+        setSelect(false);
     }
     
     return (
@@ -63,7 +70,7 @@ const DisplayPlayer = ({ handleDebit }) => {
             
             <div className="">
                 { select ?
-                    <PlayerSelected selectedPlayers={selectedPlayers} handleDeletePlayer={handleDeletePlayer}/>:
+                    <PlayerSelected selectedPlayers={selectedPlayers} handleDeletePlayer={handleDeletePlayer} HandelWayToSelectMore={HandelWayToSelectMore}/>:
                     <PlayerShowcase players={players} handlePlayerSelect={handlePlayerSelect} />
                 }
             </div>
